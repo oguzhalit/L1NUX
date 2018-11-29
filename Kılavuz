@@ -1,0 +1,44 @@
+help = komutu veya programı nasıl kullanıcagımız hakkında bilgi verir.
+  % cat --help | less   % yazarak cat komutu ve parametreleri hakkında bilgi verir. q ile çıkar.
+  % cat --help | grep A % a parametresi ile ilgili bilgiyi verir.
+man = help ile benzer çıktılara sahiptir. komut ve program hakkında bilgiler verir.
+  % man mount % mount hakkında bilgi verir
+whatis = kısaca komutun veya programın ne yaptıgı bilgisini verir.
+  % whatis passwd % passwd ne iş yapar ve ne işe yarar onun bilgisini yazar. 
+  % man -f passwd % ile aynı çıktıyı verir.
+apropos = tam olarak hatırlayamadıgımız şeyleri bulmamıza yarar.
+  % apropos "passwd" % passwd geçen kullanımların hepsini gösterir.
+  % apropos  pass % içerisinde pass vardı ama devamını hatırlıyamadım derseniz bu komutlar içinde pass geçenleri gösterir.
+  % apropos "list directory" % liste sıralamaya yarayan komutlar verir.
+lsb_release = sistem hakkında bilgi verir.
+  % lsb_release -a % = Disbirütör adnı yazar
+  % cat /etc/*release % = Dosyayı okuyarak bilgi verir.
+uname = kernel sürümleri ve dagıtım bilgilerini verir.
+  % uname -a % = bütün bilgileri basar.
+hostname = bilgisayar adını yazar.
+  % hostname % = parametresiz olarak kullanılabilir.Gerekirse yardım sayfalarına bakarak daha detaylı çıktılar üretebiliriz.
+hostnamectl = bilgisayar hakkında daha detaylı bilgi verir.
+  % hostnamectl set-hostname 'yeni_hostname' % = komutu ile hostname degiştirilebilir.Halen degişmedi dersen. % echo $? % ile
+  başarılı mı degilmi kontrol saglanır.0 ise başarılı 1 ise başarısızdır.pencereyi kapatıp yeniden açında root@yeni_hostname
+  olur.
+-------------------------------------------------------------\
+who = kullanıcının kim oldugu konusunda bilgi verir.-----------\
+w   = kullanıcının bilgilerini verir----------------------------) Birbirlerine çok benzer komutlar parametrelerini araştırmakta 
+whoami = who ile benzer bilgiler verir.------------------------/   fayda var
+--------------------------------------------------------------/
+uptime =
+whereis
+which
+locate
+dmidecode
+proc
+fdisk -l
+df
+du
+free
+hdparm
+modinfo
+stat
+vmstat
+history
+watch
