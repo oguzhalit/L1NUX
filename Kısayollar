@@ -1,16 +1,16 @@
-|----------------------------------------------------------------------------------------------------------------------------------------------------|
-|	TAB 		 = Zaman tasarrufu ve hız sağlar.Çok kullanışlıdır.Yazdıklarınızı otomatik tamamlar.Çift basma ile diger tamamlanacakları ekranda gösterir |
-|	CTRL - C = Çalışan programı durdurur.Bazı istisnaları var.İlerde deginicem.																																				 |
-|	CTRL - Z = Programı arka plana atar. fg ile geri çagırabilirsiniz.																																								 |	
-|	CTRL - D = İşlemi sonlandırır.Terminalden çıkana kadar.																																														 |
-|	CTRL - U = İmlec arkasındakileri yazılanları siler.Yanlış bişey yazılırsa, çok kullanışlı.																												 |
-|	CTRL - K = İmlec önündekileri siler.																																																							 |
-|	CTRL - L = Ekranı temizler.																																																												 |
-|	CTRL - A = İmleci satır başına getirir.Satır başına bişey eklemeniz gerektiginde oldukça kullanışlıdır.																						 |
-|	CTRL - E = Satır sonuna gider.																																																										 |
-|	CTRL - R = Daha önce kullanılan komutlar arasından komut arar.																																										 |
-|	CTRL - W = İmlecden öncekileri kelime kelime siler.																																																 |
-|	CTRL - Y = Son silineni geri yazdırır.																																																						 |
-|	CTRL - P = Önceki komutlara gitmenize yarar.Geriye dogru.																																													 |
-|	CTRL - N = Önceki komutlarda ile gitmenize yarar.																																																	 |
-|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------------------------------------------------------
+|	TAB      = Zaman tasarrufu ve hız sağlar.Çok kullanışlıdır.Yazdıklarınızı otomatik tamamlar.Çift basma ile diger tamamlanacakları ekranda gösterir 
+|	CTRL - C = Çalışan programı durdurur.Bazı istisnaları var.İlerde deginicem.																																				 
+|	CTRL - Z = Programı arka plana atar. fg ile geri çagırabilirsiniz.																																								 	
+|	CTRL - D = İşlemi sonlandırır.Terminalden çıkana kadar.																																														 
+|	CTRL - U = İmlec arkasındakileri yazılanları siler.Yanlış bişey yazılırsa, çok kullanışlı.																												 
+|	CTRL - K = İmlec önündekileri siler.																																																							 
+|	CTRL - L = Ekranı temizler.																																																												 
+|	CTRL - A = İmleci satır başına getirir.Satır başına bişey eklemeniz gerektiginde oldukça kullanışlıdır.																						 
+|	CTRL - E = Satır sonuna gider.																																																										 
+|	CTRL - R = Daha önce kullanılan komutlar arasından komut arar.																																										 
+|	CTRL - W = İmlecden öncekileri kelime kelime siler.																																																 
+|	CTRL - Y = Son silineni geri yazdırır.																																																						 
+|	CTRL - P = Önceki komutlara gitmenize yarar.Geriye dogru.																																													 
+|	CTRL - N = Önceki komutlarda ile gitmenize yarar.																																																	 
+|----------------------------------------------------------------------------------------------------------------------------------------------------
