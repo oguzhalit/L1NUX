@@ -26,19 +26,23 @@ who = kullanıcının kim oldugu konusunda bilgi verir.-----------\
 w   = kullanıcının bilgilerini verir----------------------------) Birbirlerine çok benzer komutlar parametrelerini araştırmakta 
 whoami = who ile benzer bilgiler verir.------------------------/   fayda var
 --------------------------------------------------------------/
-uptime =
-whereis
-which
-locate
-dmidecode
-proc
-fdisk -l
-df
-du
-free
-hdparm
-modinfo
-stat
-vmstat
-history
-watch
+uptime = sistemin ne kadardır açık oldugu hakkında bilgi verir.
+--------------------------------------------------------------\
+whereis = dosyaların konumunu bulur. % whereis man %-----------\
+which = tam yol bilgisini verir.--------------------------------) Birbirlerine benzer komutlar farklılarını not alıp araştırmakta
+locate = aradıgımız dosyanın konumunu verir.-------------------/    fayda var.
+--------------------------------------------------------------/
+dmidecode = donanım bileşenleri ve bios ile alakalı bilgiler almamızı sağlar. % dmidecode -t system % = sistem hakkında bilgi saglar.
+proc = cpu ve ram hakkında bilgi almamıza yarar. % cat /proc/cpuinfo %
+fdisk -l = sistemdeki disk bölümleri hakkında bilgi edinebilirsiniz
+df = disk kullanımı hakkında bilgi verir.
+du =  dosya ve dizinlerin kapladıkları alanları gösterir.
+free = bellek miktarı hakkında bilgi verir
+hdparm = harddisk ile ilgili bilgiler burda tutulur.
+modinfo = kernel modülleriyle ilgili bilgileri listelemek için.
+-------------------------------------------------------------
+stat = dosya dizin durumu hakkında bilgi verir.
+vmstat = sistemin genel komutu hakkında bilgi verir.
+history = Daha öncede kullanımış komutlar hakkında bilgi verir.
+find =
+watch = 
