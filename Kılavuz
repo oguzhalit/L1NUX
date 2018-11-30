@@ -40,9 +40,14 @@ du =  dosya ve dizinlerin kapladıkları alanları gösterir.
 free = bellek miktarı hakkında bilgi verir
 hdparm = harddisk ile ilgili bilgiler burda tutulur.
 modinfo = kernel modülleriyle ilgili bilgileri listelemek için.
--------------------------------------------------------------
 stat = dosya dizin durumu hakkında bilgi verir.
 vmstat = sistemin genel komutu hakkında bilgi verir.
 history = Daha öncede kullanımış komutlar hakkında bilgi verir.
-find =
-watch = 
+find = Dosyaların konumlarımlarını bulmanızı yarar.tek başına kullanılırsa o klasördeki herşeyi listeler.
+  % find . -name *.txt % bulunulan dizindeki txt'leri yazar.
+  % find . -type f -empty %  dizindeki boş dosyaları listeler.
+watch = Verilen komutu belli aralıkla gerçekleştirme gibi bir özelligi vardı.
+  % sleep 7; echo "penguenlerde uçabilir" >> kanat.txt % = 7 sn sonra kanat.txt'yi oluşturup içine penguenler uçabilir yazar.
+  % watch -n 3 ls & 3 sn'de bir ls yapıcak.
+  Yukarda watch örnegini denemek için 2 terminal açın önce sleep komutunu diger terminalde watch komutunu ekleyince anlıcaksınız
+  Bazen kullanışlı olabiliyor.
