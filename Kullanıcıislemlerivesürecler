@@ -1,0 +1,14 @@
+shadow
+passwd
+adduser
+useradd
+userdel
+chfn
+chage
+usermod
+su
+sudo
+process
+ps
+htop
+kill
