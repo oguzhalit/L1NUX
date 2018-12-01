@@ -1,27 +1,33 @@
-/
-pwd
-cd
-pushd-popd
-ls
-touch
-cat
-echo
-more
-less
-head
-tail
-tee
-tac
-rev
-sort
-wc
-nl
-pr
-paste
-grep
-cut
-tr
-cmp
-diff
-exec
-xargs
+/ = kök dizini temsil eder.Bütün sistem bu dizinin altındadır.
+  [sudo rm -rf /] = sakın deneme <warning>
+pwd  = bulundugumuz dizini gösterir.
+cd   = dizin degiştirmemize yarar.
+cd - = bir önceki gelinen dizine döner 
+ls   = listeleme yapar.
+     ls -a = gizli dosyları listeler
+     ls -l = detaylı listeleme yapar
+     
+touch = Boş bir dosya oluşturmamıza yarar.
+cat   = Dosyaları okumamızı saglar.
+echo  = Ekrana yazılanı basar
+  echo "Merhaba penguler"
+more  = Uzun dosyların okudugumuz zaman üst kısımları göremeyiz more komutu ile üstlerden aşagı dogru okuma gerçekleşir.
+less  = Uzun listeleri kısa kısa geçer.
+head  = Bir dosyayı okurken başdan şu tane getir diyebilmek için
+  head -n 2 deneme.txt = baştan 2 satırı yazdır.
+tail  = Sondan şu kısmı getir.
+  tail -n 2 deneme. txt = sondan 2 satırı getir.
+tee   = girdiyi çıktı olarak basdırır aynı zamanda dosyaya yazdırır.öyle bir dosya yoksa oluşturur.
+tac   = sondan başa sıralar dosyayı.
+rev   = metini tersden okur.
+sort  = alfabetik olarak sıralamayı degiştirir.
+wc    = bir dosya içindeki kelime satır ve karaketer sayısını söyler.
+nl    = dosya içindeki kaç satır varsa numaralandırır.
+paste = iki dosya içerigini birleştirmek için kullanılır.
+grep  = dosya içinde arama yapmamızı saglar.
+cut   = İnceledigimiz dosyada sadece görmek istedigimiz alanları almamıza yarar.
+tr    = Büyük küçük harf degişiklikleri yapar.bazı istenilen karakterlerin silinmesinde yarar.
+cmp   = Dosya farklarını belirtir.
+diff  = 2 dosyayı karşılaştırır.İstedege göre benzerlikleri veya farklılıkları yazdırır.
+exec  = Girdi alır ve onun üzerinde işlem yapar 
+xargs = Verilen girdi üzerinden işlem yapar exec'e benzer.
