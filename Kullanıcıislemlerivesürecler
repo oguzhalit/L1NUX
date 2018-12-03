@@ -1,12 +1,12 @@
-shadow
-passwd
-adduser
-useradd
-userdel
-chfn
-chage
-usermod
-su
+shadow  = etc dizini içerisinde bulunan shadow dosyası içersinde kullanıcı şifreleri ile ilgili bilgileri tutar.Bu dosyada parolaların şifreli halleri mevcuttur.
+passwd  = etc dizini içerisinde bulunan passwd kullanıcı bilgilerini içerisinde barındırır.Ve bunların degiştirilmesinde yetkilidir.
+adduser = yeni bir kullanıcı eklemize yarar.Ardından o kullanıcıya ait birkaç bilgi girmenizi ister.
+useradd = yeni bir kullanıcı ekler.başka bilgi istemez.
+userdel = kulllanıcı silmeye yarar.
+chfn    = kullanıcı bilgilerini degiştirmenize yarar.
+chage   = Parola degişiklikleri ve parola belirleme bilgilerini gösterir.
+usermod = Kullanıcı hesabı kilitleme ve pasif hale getirmek için kullanılır.
+su      =
 sudo
 process
 ps
