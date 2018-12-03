@@ -6,9 +6,9 @@ userdel = kulllanıcı silmeye yarar.
 chfn    = kullanıcı bilgilerini degiştirmenize yarar.
 chage   = Parola degişiklikleri ve parola belirleme bilgilerini gösterir.
 usermod = Kullanıcı hesabı kilitleme ve pasif hale getirmek için kullanılır.
-su      =
-sudo
-process
-ps
-htop
-kill
+su      = Yeni bir kullanıcıya geçiş yapmamıza yarar.
+sudo    = Root yetkisi ile işlem yapmamızı saglar
+process = Süreçler yani bir program çalışıyorsa /proc dosyasında mevcutttur. Ve işleyişi hakkında bilgi alabiliriz.
+ps      = Çalışan süreçleri görmemize yarar.
+htop    = Çalışan süreçleri düzenli bir şekilde sunar.
+kill    = Kapatmak istedigimiz bir program varsa onun sürecini sonlandırmada kullanılır.
